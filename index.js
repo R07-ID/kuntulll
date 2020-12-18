@@ -60,7 +60,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] MASLENTYT Ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] Tn_R07/Tn_Djarot Ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -147,7 +147,7 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '.owner'){
-conn.sendMessage(id, 'Owner BOTLENT wa.me/+628165466368' ,MessageType.text);
+conn.sendMessage(id, 'Owner BOTLENT wa.me/+6282328023356' ,MessageType.text);
 }
 else if (text == 'Bang'){
 conn.sendMessage(id, 'aku pembuat Lent bot & Programer' ,MessageType.text);
@@ -174,7 +174,7 @@ else if (text == 'Hai'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh #help' ,MessageType.text);
 }
 else if (text == '.ttp'){
-conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/628165466368* ' ,MessageType.text);
+conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/6282328023356* ' ,MessageType.text);
 }
 else if (text == 'Woi'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh #help' ,MessageType.text);
@@ -216,10 +216,10 @@ else if (text == 'Cuy'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh #help' ,MessageType.text);
 }
 else if (text == '.frendsowner'){
-conn.sendMessage(id, 'kawan1 iskandar wa.me/+628165466368' ,MessageType.text);
+conn.sendMessage(id, 'kawan1 iskandar wa.me/+6282328023356' ,MessageType.text);
 }
 else if (text == '.coowner'){
-conn.sendMessage(id, 'kawan2 testing script wa.me/+628165466468' ,MessageType.text);
+conn.sendMessage(id, 'kawan2 testing script wa.me/+6282328023356?text=TIDAK+ADA(SOLO+PLAYER)' ,MessageType.text);
 }
 else if (text == '.groupbot'){
 conn.sendMessage(id, 'group bot whatsapp https://chat.whatsapp.com/GDdd0I3WlF5LnMVifmS7rN' ,MessageType.text);
